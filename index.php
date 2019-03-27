@@ -7,6 +7,7 @@
 <body>
 	<div>
 		<?php		
+		
 			function check_holiday(&$delivery_date_arr, &$delivery_date)
 			{
 				$file_name = "holidays.txt";
