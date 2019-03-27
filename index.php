@@ -61,7 +61,6 @@
 						
 						//CHECK HOLIDAY	
 						check_holiday($delivery_date_arr, $delivery_date);
-						
 						$month_arr = array('января','февраля','марта','апреля','мая','июня','июля','августа','сентября','октября','ноября','декабря');
 						$index = (int)$delivery_date_arr[1] - 1;
 						echo $delivery_date_arr[0] . " " . $month_arr[$index] . " " . $delivery_date_arr[2];
